@@ -6,7 +6,7 @@ function checkAnswer() {
     
     let feed = document.querySelector('#feedback');
     
-        if (correctAnswer === userAnswer) {
+        if (userAnswer ===  correctAnswer) {
             feed.textContent = "Correct! Well done.";
         } else {
             feed.textContent = "That's incorrect. Try again!";
