@@ -9,7 +9,7 @@ function checkAnswer() {
     let feed = document.querySelector('#feedback');
     
     
-    if (userAnswerElement) {
+    
         let userAnswer = userAnswerElement.value;
         
         
@@ -18,10 +18,8 @@ function checkAnswer() {
         } else {
             feed.textContent = "That's incorrect. Try again!";
         }
-    } else {
-        feed.textContent = "Please select an answer.";
-    }
 }
+
 
 
 let answerButton = document.getElementById('submit-answer');
